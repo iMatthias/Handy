@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQUEST_NEW_NOTE);
             }
         });
+
         newNote = (Button) findViewById(R.id.button_pdf);
         newNote.setOnClickListener(new View.OnClickListener() {
             @Override
